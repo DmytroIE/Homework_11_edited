@@ -1,0 +1,25 @@
+.header {
+  min-width: 1200px;
+  min-height: 1000px;
+  background-image: url(../img/eagle-banner-min.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding-top: 27px;
+
+  &__nav{
+    margin-bottom: 155px;
+  }
+
+  &__section-title{
+    margin-bottom: 64px;
+  }
+
+  &__learnmore-link{
+    margin: 0 auto;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx){
+    background-image: url(../img/eagle-banner@2x-min.jpg);
+  }
+}
+

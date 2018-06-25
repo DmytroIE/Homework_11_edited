@@ -1,0 +1,22 @@
+.social-button{
+  width: 56px;
+  height: 56px;
+  background-color: $cream-theme-lower-color;
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  &:hover{
+    background-color: $cream-theme-upper-color;
+  }
+}
+
+.social-button__icon{
+  width: 60%;
+  height: 60%;
+  fill: $cream-theme-upper-color;
+}
+
+.social-button:hover .social-button__icon{
+  fill: $primary-light-color;
+}

@@ -1,0 +1,27 @@
+.service-card{
+  @include flex($ai: stretch);
+}
+
+.service-card__icon-container{
+  flex: 0 0 32px; /*fully unflexible https://www.w3.org/TR/css-flexbox-1/#flex-common*/
+  margin: 0 29px;
+}
+
+.service-card__icon{
+  width: 32px;
+  height: 32px;
+  fill: $green-theme-main-color;
+}
+
+.service-card__title{
+  font-family: $title-font;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: $title-dark-color;
+}
+
+.service-card__description{
+  line-height: $main-line-height;
+}

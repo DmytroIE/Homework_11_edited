@@ -1,0 +1,40 @@
+.nav {
+  @include flex($ai: stretch);
+
+  &__logo{
+    
+  }
+
+  &__list{
+    @extend %flex-list;
+    padding-top: 11px;
+    width: 620px;
+  }
+  
+  &__link {
+    @extend %block-link;
+    min-height: 30px;
+    text-transform: uppercase;
+    font-family: $title-font;
+    font-size: 14px;
+    color: $primary-light-color;
+  
+    &::after{
+      display: none;
+      content: "";
+      width: 100%;
+      height: 3px;
+      background-color: $cream-theme-lower-color;
+      margin: 0px auto;
+      margin-top: 9px;
+    }
+  
+    &:hover {
+      color: $cream-theme-lower-color;
+    }
+  
+    &:hover::after{
+      display: block;
+    }
+  }
+}

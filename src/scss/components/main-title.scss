@@ -1,0 +1,19 @@
+.main-title {
+  color: $primary-light-color;
+  text-align: center; 
+  margin: 0 auto 109px;
+}
+
+.main-title__upper-item {
+  @extend %title-upper-item;
+  font-size: 72px;
+  margin-bottom: 36px;
+}
+
+.main-title__lower-item {
+  @extend %title-lower-item;
+  font-size: 150px;
+  line-height: 140px;
+  width: 850px;
+  letter-spacing: -0.02em;
+}

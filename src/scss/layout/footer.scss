@@ -1,0 +1,24 @@
+.footer{
+  min-height: 62px;
+  @include flex;
+  //display: flex;
+  //justify-content: space-between;
+  //align-items: center;
+  border-top: 1px solid #e5e5e5;
+
+  &__info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: $title-dark-color;
+  }
+  
+  &__info--link{
+    text-decoration: none;
+    color: $cream-theme-upper-color;
+  }
+
+  &__subscribe-form{
+    
+  }
+
+}

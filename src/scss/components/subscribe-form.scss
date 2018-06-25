@@ -1,0 +1,37 @@
+.subscribe-form{
+  &__container{
+    @include flex($ai: stretch);
+  }
+
+  &__email-input{
+    padding: 0px 0px 0px 10px;
+    margin: 0;
+    border-top: 1px solid $form-border-color;
+    border-left: 1px solid $form-border-color;
+    border-bottom: 1px solid $form-border-color;
+    border-right: none;
+    height: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+    
+  &__email-input::-webkit-input-placeholder {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: $form-border-color;
+  }
+
+  &__button{
+    padding: 10px 33px 10px 32px;
+    border: none;
+    background-color: $green-theme-main-color;
+    color: $primary-light-color;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

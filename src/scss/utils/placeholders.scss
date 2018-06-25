@@ -1,0 +1,30 @@
+%block-link{
+  display: block;
+  text-decoration: none;
+}
+
+%flex-list{
+  @include flex ($jc: space-between, $ai: flex-start);
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+%image{
+  display: inline-block;
+  min-width: 100%;
+  height: auto;
+}
+
+%title-upper-item
+{
+  font-family: $italic-title-font;
+  display: inline-block;
+}
+
+%title-lower-item
+{
+  display: inline-block;
+  font-family: $title-font;
+  text-transform: uppercase;
+  font-weight: 700;
+}
