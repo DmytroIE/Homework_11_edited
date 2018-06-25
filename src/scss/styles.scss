@@ -4,10 +4,15 @@
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/placeholders';
+
+/* Base */
+
 @import 'base/normalize';
 @import 'base/base';
 
 /* Layout */
+
+@import 'layout/wrapper';
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/services';
@@ -16,7 +21,6 @@
 
 /* Components */
 
-@import 'components/wrapper';
 @import 'components/logo';
 @import 'components/nav';
 @import 'components/shopping-search-form';
